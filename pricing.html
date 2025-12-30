@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pricing - Seatinez Tax Service</title>
+	
+	<link rel="stylesheet" href="style.css">
+	<script src="translations.js"></script>
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+<header>
+	<div class="header-top">
+		<h1><a href="Index.html" style="text-decoration: none; color: inherit;">Seatinez Tax Service</a></h1>
+		<div class="header-actions">
+			<button class="lang-toggle" id="langToggle" aria-label="Switch Language">ES</button>
+			<button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</div>
+	<div class="nav-overlay" id="navOverlay"></div>
+	<nav class="nav-menu" id="navMenu">
+		<ul class="nav-list">
+			<li><a href="Index.html" data-translate="navHome">Home</a></li>
+			<li><a href="about.html" data-translate="navAbout">About Us</a></li>
+			<li><a href="services.html" data-translate="navServices">Services</a></li>
+			<li><a href="pricing.html" data-translate="navPricing">Pricing</a></li>
+			<li><a href="faq.html" data-translate="navFAQ">FAQ</a></li>
+			<li><a href="contact.html" data-translate="navContact">Contact</a></li>
+			<li><a href="tel:+18722075311" class="nav-phone" data-translate="navCall">Call: (872) 207-5311</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<!-- Hero Section: What It Costs -->
+	<section class="hero">
+		<h2 class="hero-title" data-translate="pricingHeroTitle">Transparent Pricing</h2>
+		<p class="hero-description" data-translate="pricingHeroDesc">No surprises, no hidden fees. We believe in honest, upfront pricing. Get a free quote before we start, and we won't file until you approve the final price.</p>
+		<a href="tel:+18722075311" class="cta-button" data-translate="ctaCallNumber">Get Free Quote - (872) 207-5311</a>
+	</section>
+
+	<!-- Trust Promise -->
+	<section class="pricing-promise">
+		<div class="promise-card">
+			<h3>Our Pricing Promise</h3>
+			<div class="promise-items">
+				<div class="promise-item">
+					<strong>✓ Free Quote First</strong>
+					<p>We'll review your documents and give you a price before we start</p>
+				</div>
+				<div class="promise-item">
+					<strong>✓ No Hidden Fees</strong>
+					<p>What we quote is what you pay—no surprises</p>
+				</div>
+				<div class="promise-item">
+					<strong>✓ No Filing Until You Approve</strong>
+					<p>We show you everything before filing and you approve the final price</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Pricing Overview -->
+	<section class="pricing-section">
+		<div class="section-header">
+			<h2>What It Costs</h2>
+			<p>Starting prices for common services. Final price depends on your specific situation.</p>
+		</div>
+
+		<div class="pricing-grid">
+			<!-- Basic Individual Return -->
+			<div class="pricing-card">
+				<div class="pricing-header">
+					<h3>Basic Individual Return</h3>
+					<div class="price">
+						<span class="price-start">Starting at</span>
+						<span class="price-amount">$75</span>
+					</div>
+				</div>
+				<div class="pricing-body">
+					<p>Simple tax return with W2, standard deduction, and basic credits.</p>
+					<ul class="pricing-features">
+						<li>W2 filing</li>
+						<li>Standard deduction</li>
+						<li>E-filing included</li>
+						<li>Direct deposit setup</li>
+					</ul>
+					<p class="pricing-note"><em>Price may vary based on forms needed</em></p>
+				</div>
+			</div>
+
+			<!-- Itemized Return -->
+			<div class="pricing-card">
+				<div class="pricing-header">
+					<h3>Itemized Return</h3>
+					<div class="price">
+						<span class="price-start">Starting at</span>
+						<span class="price-amount">$150</span>
+					</div>
+				</div>
+				<div class="pricing-body">
+					<p>Tax return with itemized deductions, mortgage interest, charitable donations, etc.</p>
+					<ul class="pricing-features">
+						<li>Itemized deductions</li>
+						<li>Mortgage interest</li>
+						<li>Charitable contributions</li>
+						<li>Medical expenses</li>
+						<li>E-filing included</li>
+					</ul>
+					<p class="pricing-note"><em>Price depends on number of deductions</em></p>
+				</div>
+			</div>
+
+			<!-- Self-Employed / 1099 -->
+			<div class="pricing-card">
+				<div class="pricing-header">
+					<h3>Self-Employed / 1099</h3>
+					<div class="price">
+						<span class="price-start">Starting at</span>
+						<span class="price-amount">$200</span>
+					</div>
+				</div>
+				<div class="pricing-body">
+					<p>For independent contractors, freelancers, and self-employed individuals.</p>
+					<ul class="pricing-features">
+						<li>Schedule C preparation</li>
+						<li>Business expense deductions</li>
+						<li>Quarterly estimates</li>
+						<li>E-filing included</li>
+					</ul>
+					<p class="pricing-note"><em>Price varies with complexity</em></p>
+				</div>
+			</div>
+
+			<!-- Small Business Return -->
+			<div class="pricing-card featured">
+				<div class="pricing-badge">Most Popular</div>
+				<div class="pricing-header">
+					<h3>Small Business Return</h3>
+					<div class="price">
+						<span class="price-start">Starting at</span>
+						<span class="price-amount">$300</span>
+					</div>
+				</div>
+				<div class="pricing-body">
+					<p>Complete business tax filing for LLCs, partnerships, S-corps, and corporations.</p>
+					<ul class="pricing-features">
+						<li>Business tax return</li>
+						<li>Business deductions</li>
+						<li>Depreciation schedules</li>
+						<li>Payroll tax forms</li>
+						<li>E-filing included</li>
+					</ul>
+					<p class="pricing-note"><em><strong>Free quote available</strong> - Price varies by business type and complexity</em></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Additional Services Pricing -->
+	<section class="additional-pricing">
+		<div class="section-header">
+			<h2>Additional Services</h2>
+			<p>Add-on services and specialized help</p>
+		</div>
+
+		<div class="additional-pricing-grid">
+			<div class="additional-pricing-item">
+				<h4>ITIN Application</h4>
+				<p class="additional-price">$50 - $100</p>
+				<p>New ITIN application or renewal assistance</p>
+			</div>
+			<div class="additional-pricing-item">
+				<h4>Past Year Returns</h4>
+				<p class="additional-price">Same as current year</p>
+				<p>File returns for previous years you missed</p>
+			</div>
+			<div class="additional-pricing-item">
+				<h4>Amended Return</h4>
+				<p class="additional-price">$75 - $150</p>
+				<p>Correct mistakes on a previously filed return</p>
+			</div>
+			<div class="additional-pricing-item">
+				<h4>Extension Filing</h4>
+				<p class="additional-price">$50</p>
+				<p>File extension to get more time (Form 4868)</p>
+			</div>
+			<div class="additional-pricing-item">
+				<h4>IRS Letter Response</h4>
+				<p class="additional-price">$100 - $300</p>
+				<p>Help understanding and responding to IRS notices</p>
+			</div>
+			<div class="additional-pricing-item">
+				<h4>Monthly Bookkeeping</h4>
+				<p class="additional-price">$150 - $400/month</p>
+				<p>Ongoing bookkeeping services (price depends on transaction volume)</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- How Pricing Works -->
+	<section class="pricing-process">
+		<div class="section-header">
+			<h2>How Our Pricing Works</h2>
+			<p>Simple, transparent process—no surprises</p>
+		</div>
+
+		<div class="process-steps">
+			<div class="process-step">
+				<div class="process-number">1</div>
+				<h3>Bring Your Documents</h3>
+				<p>Bring all your tax documents (W2s, receipts, etc.) to our office</p>
+			</div>
+			<div class="process-step">
+				<div class="process-number">2</div>
+				<h3>Get Free Quote</h3>
+				<p>We review your situation and give you an exact price before we start</p>
+			</div>
+			<div class="process-step">
+				<div class="process-number">3</div>
+				<h3>We Prepare Your Return</h3>
+				<p>We prepare your taxes and show you everything before filing</p>
+			</div>
+			<div class="process-step">
+				<div class="process-number">4</div>
+				<h3>You Approve & Pay</h3>
+				<p>Review the return, approve the price, then we file. No filing until you approve!</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ Section -->
+	<section class="pricing-faq">
+		<div class="section-header">
+			<h2>Pricing Questions</h2>
+		</div>
+
+		<div class="faq-grid">
+			<div class="faq-item">
+				<h4>Are there hidden fees?</h4>
+				<p><strong>No.</strong> What we quote is what you pay. We're transparent about all costs upfront. No surprise fees, no hidden charges.</p>
+			</div>
+			<div class="faq-item">
+				<h4>Can I get a quote first?</h4>
+				<p><strong>Yes!</strong> We'll review your documents and give you a free quote before we start any work. No obligation.</p>
+			</div>
+			<div class="faq-item">
+				<h4>What if my return is more complex?</h4>
+				<p>We'll discuss any additional costs before we start. If your situation is more complex, we'll explain why and get your approval first.</p>
+			</div>
+			<div class="faq-item">
+				<h4>Do you charge for e-filing?</h4>
+				<p><strong>No.</strong> E-filing is included in our service. We don't charge extra to file your return electronically.</p>
+			</div>
+			<div class="faq-item">
+				<h4>When do I pay?</h4>
+				<p>You pay after we prepare your return and you approve it. We don't file until you're satisfied and approve the final price.</p>
+			</div>
+			<div class="faq-item">
+				<h4>What payment methods do you accept?</h4>
+				<p>We accept cash, check, and credit/debit cards. Payment plans available for larger returns.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA Section -->
+	<section class="cta-section-services">
+		<div class="cta-content">
+			<h2>Ready to Get Started?</h2>
+			<p>Call us for a free quote. We'll review your documents and give you an exact price—no obligation, no surprises.</p>
+			<a href="tel:+18722075311" class="cta-button">Get Free Quote - (872) 207-5311</a>
+		</div>
+	</section>
+
+	<!-- Contact Information -->
+	<section class="contact-section">
+		<div class="contact-card">
+			<div class="contact-item">
+				<strong data-translate="contactAddress">Address</strong>
+				<a href="https://www.google.com/maps/search/?api=1&query=Seatinez+Tax+Service+Inc+2541+W+51st+St+Chicago+IL+60632" target="_blank" rel="noopener noreferrer">2541 W 51st St, Chicago, IL 60632</a>
+			</div>
+			<div class="contact-item">
+				<strong data-translate="contactPhone">Phone</strong>
+				<a href="tel:+18722075311">(872) 207-5311</a>
+			</div>
+			<div class="contact-item">
+				<strong data-translate="contactHours">Hours</strong>
+				<span data-translate="contactHoursText">Monday - Saturday: 9:00 AM - 6:00 PM</span>
+			</div>
+		</div>
+	</section>
+</main>
+
+</div>
+
+<script>
+	// Language toggle
+	const langToggle = document.getElementById('langToggle');
+	if (langToggle) {
+		langToggle.addEventListener('click', function() {
+			const newLang = currentLang === 'en' ? 'es' : 'en';
+			setLanguage(newLang);
+		});
+	}
+	
+	// Hamburger menu toggle
+	const hamburger = document.getElementById('hamburger');
+	const navMenu = document.getElementById('navMenu');
+	const navOverlay = document.getElementById('navOverlay');
+	
+	function toggleMenu() {
+		const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+		hamburger.setAttribute('aria-expanded', !isExpanded);
+		navMenu.classList.toggle('active');
+		navOverlay.classList.toggle('active');
+		hamburger.classList.toggle('active');
+	}
+	
+	hamburger.addEventListener('click', toggleMenu);
+	
+	// Close menu when clicking overlay
+	navOverlay.addEventListener('click', function() {
+		navMenu.classList.remove('active');
+		navOverlay.classList.remove('active');
+		hamburger.classList.remove('active');
+		hamburger.setAttribute('aria-expanded', 'false');
+	});
+	
+	// Close menu when clicking a link
+	const navLinks = document.querySelectorAll('.nav-list a');
+	navLinks.forEach(link => {
+		link.addEventListener('click', function() {
+			navMenu.classList.remove('active');
+			navOverlay.classList.remove('active');
+			hamburger.classList.remove('active');
+			hamburger.setAttribute('aria-expanded', 'false');
+		});
+	});
+</script>
+
+</body>
+	
+</html>
